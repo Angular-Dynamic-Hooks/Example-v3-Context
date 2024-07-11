@@ -11,6 +11,6 @@ import { ExampleComponent } from './components/example/example.component';
 })
 export class AppComponent {
   content = 'Load a component here: <app-example [message]="context.someString"></app-example>';
-  components = [ExampleComponent];
+  parsers = [ExampleComponent];
   context = {someString: "Greetings from the context object!"};
 }
