@@ -5,7 +5,7 @@ import { ExampleComponent } from './components/example/example.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [DynamicHooksComponent, ExampleComponent],
+  imports: [DynamicHooksComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
